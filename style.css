@@ -269,3 +269,9 @@ border-radius: 8px;
 .atelier{
     width: 30%;
 }
+footer{
+    background-color: #222;
+    color:#fff;
+    display: flex;
+    height: 300px;
+}

@@ -1,95 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- notre css et notre JS -->
-    <link rel="stylesheet" href="style.css">
-    <script src="./script.js" defer></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+
+
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
 </head>
+
 <body>
-    <header>
-     <div class="flex between align-center">
-        <div data-aos="zoom-in-down"><img class="logot" src="/assets/mh.png" alt="musicHall"></div>
-        <div class="taille">
-            <input class="taille1" type="search">
-        </div >
-        <nav>
-            <ul class="flex between ">
-                <li><a href="">NOUVEAUTÉ</a></li>
-                <li><a href="">RECONDITIONNÉ</a></li>
-                <li><a href="">DESTOCKAGE</a></li>
-            </ul>
-        </nav>
+  <header>
+    <div class="flex between align-center">
+      <div data-aos="zoom-in-down"><img class="logot" src="/assets/mh.png" alt="musicHall"></div>
+      <div class="taille">
+        <input class="taille1" type="search">
+      </div>
+      <nav>
+        <ul class="flex between ">
+          <li><a href="">NOUVEAUTÉ</a></li>
+          <li><a href="">RECONDITIONNÉ</a></li>
+          <li><a href="">DESTOCKAGE</a></li>
+        </ul>
+      </nav>
     </div>
-    
-    </header>
 
-    <div data-aos="zoom-in-down" class="banniere">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvEEpEYHTPGmrMJJ9C9Xn146ICDs5QiTqAww&usqp=CAU" alt="">
-        <div class="absolut">
-        <h1>Explorer la diversité</h1>
-        <p>Découvrez notre collection unique</p>
-        <p>Sélection éclectique d'instruments du monde</p>
-        <p>Conseils personnalisés de nos experts passionnés</p>
-        <p>Ambiance accueillante pour une expérience de shopping authentique</p>
-        <p class="musicHall">MusicHalle - Instruments du Monde</p>
-        </div>
-        
+  </header>
+
+  <div data-aos="zoom-in-down" class="banniere">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvEEpEYHTPGmrMJJ9C9Xn146ICDs5QiTqAww&usqp=CAU"
+      alt="">
+    <div class="absolut">
+      <h1>Explorer la diversité</h1>
+      <p>Découvrez notre collection unique</p>
+      
+      <p class="musicHall">MusicHalle - Instruments du Monde</p>
     </div>
-    <main class=" backg">
 
-     <h2>Nos Instruments</h2>
+  </div>
+  <main class=" backg">
+
+    <h2>Nos Instruments</h2>
 
     <div class="flex between " id="content"></div>
 
     <h2> Nos Services</h2>
 
     <div class="flex between " id="services"></div>
-    
+
     <h4>Laissez vos témoignages :</h4>
 
     <form action="" method="get" class="form">
 
-        <div class="prenom">
-          <label for="name">Prénom: </label>
-          <input class="inpName" type="text" name="name" id="name" required />
-        </div>
+      <div class="prenom">
+        <label for="name">Prénom: </label>
+        <input class="inpName" type="text" name="name" id="name" required />
+      </div>
 
-        <div class="email">
-          <label for="email">Email: </label>
-          <input class="inpEmail" type="email" name="email" id="email" required size="30"  />
-        </div>
+      <div class="email">
+        <label for="email">Email: </label>
+        <input class="inpEmail" type="email" name="email" id="email" required size="30" />
+      </div>
 
-        <div class="typeE">
-            <label for="name">Type d'experience:</label>
-            <input  class="inpType" type="text" id="name" name="name" required size="30" />
-            </div>
-    
+      <div class="typeE">
+        <label for="name">Type d'experience:</label>
+        <input class="inpType" type="text" id="name" name="name" required size="30" />
+      </div>
 
-        <div >
+
+      <div>
         <label for="name">Commentaire:</label>
-        <input  class="inpText" type="text" id="name" name="name" required size="" />
-        </div>
+        <textarea class="inpText"></textarea>
+        
+      </div>
 
-        <div class="note">
+      <div class="note">
         <label for="tentacles">Note:</label>
         <input class="inpNote" type="number" id="tentacles" name="tentacles" min="0" max="10" />
-        </div>
+      </div>
 
-        <div class="envoyer">
-          <input class="botton" type="submit" value="Envoyer!" />
-        </div>
-      </form>
-      
-    <div class="flex between " id="temoignage"></div>
+      <div class="envoyer">
+        <input class="botton" type="submit" value="Envoyer!" />
+      </div>
+    </form>
+
+    <div class="flex between" id="temoignage"></div>
     <h2>Nos Avantages</h2>
     <div class="flex between promo ">
       <div class="avantage">
@@ -102,13 +105,14 @@
         <p>Ambiance accueillante pour une expérience de shopping authentique</p>
       </div>
     </div>
-    </main>
-    <footer>
-      
-   
-    </footer>  
-   
-    
-    
+  </main>
+  <footer>
+    <div id="map"></div>
+
+  </footer>
+
+
+
 </body>
+
 </html>

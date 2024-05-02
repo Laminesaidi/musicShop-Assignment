@@ -12,10 +12,21 @@ fetch("instrumentsMusiques.json")
     addinstrument(donnees.entreprise.produits);
     addservice (donnees.entreprise.services);
     addtemoignages(donnees.entreprise.temoignages);
-   
+    aficheHero(donnees.entreprise.nomCommercial,donnees.entreprise.phraseAccroche,donnees.entreprise.texteAppelAction)
   });
 
+
+function aficheHero(nomCom,acroche,appelAction){
+  document.querySelector("#hero").innerHTML  +=
+  `
+  <div class="absolut">
+    <h1>${nomCom}</h1>
+    <p>${acroche}</p>
+    <div class="act"><a class="action" href="#content">${appelAction}<a></div>
+  </div>`
+  }
   
+
   
   function addinstrument(tableauInstruments) {
     // role : ajouter des instruments
@@ -60,10 +71,11 @@ fetch("instrumentsMusiques.json")
         `
       });
     }
-      function addtemoignages(tableautemoignages){
+
+    function addtemoignages(tableautemoignages){
         tableautemoignages.forEach(temoignage=>{
           document.querySelector("#temoignage").innerHTML += `
-          <div class="carteTem">
+          <div data-aos="flip-up" class="carteTem">
         <p class="gras"> ${temoignage.prenom}  </p>
         <p class="typex"> ${temoignage.typeExperience}  </p>
         <p class="comm"> ${temoignage.commentaire}  </p>
@@ -71,7 +83,7 @@ fetch("instrumentsMusiques.json")
         </div>
          `
         }) 
-      }
+    }
       
       var map = L.map('map').setView([45.4314190972094, 4.40174009945124], 13);
 

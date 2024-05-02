@@ -320,10 +320,32 @@ footer{
     border-radius: 8px;
     }
     #map{
-       
-        height: 300px;
-       
+         height: 300px;
+        
     }
-
+    .action{
+            background-color:#481E14;
+            padding: 5px 15px;
+            width: 25%;
+            border-radius: 15px;
+            margin-left: 20px;
+            
+            text-decoration: none;
+            color:#FFC94A;
+            border: solid #FFC94A;
+            font-weight: bold;
+            transition: 1s ease;
+        
+    }
+    .action:hover {
+        background-color:#FFC94A;
+        color: #481E14;
+        border: solid #481E14;
+        border-radius: 8px;
+        }
+    .act{
+        margin-top: 50px;
+    }
+    
 
 

@@ -27,7 +27,7 @@ function aficheHero(nomCom,acroche,appelAction){
   }
   
 
-  
+   //la div des instruments
   function addinstrument(tableauInstruments) {
     // role : ajouter des instruments
     // parametre:le tableau d'instrument (de produits)
@@ -35,7 +35,7 @@ function aficheHero(nomCom,acroche,appelAction){
   
    tableauInstruments.forEach(instrument=> {
       
-   
+  
       document.querySelector("#content").innerHTML  +=
       `<div data-aos="flip-left"
       data-aos-easing="ease-out-cubic"
@@ -56,7 +56,7 @@ function aficheHero(nomCom,acroche,appelAction){
   
     // role : ajouter des services
     // parametre : tableau des  services
-
+    // la div des services
     function addservice(tableauServices) {
       tableauServices.forEach(service => {
 
@@ -71,7 +71,7 @@ function aficheHero(nomCom,acroche,appelAction){
         `
       });
     }
-
+     // la div des temoignages
     function addtemoignages(tableautemoignages){
         tableautemoignages.forEach(temoignage=>{
           document.querySelector("#temoignage").innerHTML += `

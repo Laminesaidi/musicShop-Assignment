@@ -1,0 +1,98 @@
+{
+    "entreprise": {
+      "nomCommercial": "MusicHalle - Instruments du Monde",
+      "phraseAccroche": "Explorez la diversité musicale avec MusicHalle, votre boutique d'instruments du monde à Paris",
+      "texteAppelAction": "Découvrez notre collection unique",
+      "avantagesClients": [
+        "Sélection éclectique d'instruments du monde",
+        "Conseils personnalisés de nos experts passionnés",
+        "Ambiance accueillante pour une expérience de shopping authentique"
+      ],
+      "produits": [
+        {
+          "nom": "Hang",
+          "description": "Découvrez les sonorités apaisantes du hang, un instrument mélodique captivant. Parfait pour créer une atmosphère paisible et méditative.",
+          "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/Hang.jpg?v=1714151742836"
+        },
+        {
+          "nom": "Kora",
+          "description": "Plongez dans la tradition musicale africaine avec nos koras artisanales. Fabriquées avec expertise, ces instruments à cordes vous transporteront vers des sonorités envoûtantes.",
+           "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/Kora.jpg?v=1714151743337"
+        },
+        {
+          "nom": "Didgeridoo",
+          "description": "Voyagez à travers notre collection de didgeridoos. Fabriqués à partir de matériaux authentiques, ces instruments à vent offrent des vibrations uniques et vibrantes.",
+          "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/didgeridoo.jpg?v=1714151742199"
+        },
+        {
+          "nom": "Santur",
+          "description": "Découvrez la beauté des mélodies du santur. Des instruments à cordes raffinés pour explorer la richesse de la musique traditionnelle de plusieurs cultures.",
+          "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/santur.jpg?v=1714151743836"
+        },
+        {
+          "nom": "Tabla",
+          "description": "Explorez les rythmes complexes de l'Inde avec nos tablas de qualité. Parfaites pour ceux qui recherchent des percussions authentiques et expressives.",
+           "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/Tabla.jpg?v=1714151744400"
+        },
+        {
+          "nom": "Charango",
+          "description": "Plongez dans les sonorités des Andes avec notre collection de charangos. Ces instruments à cordes offrent des mélodies captivantes et uniques.",
+          "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/charango.jpg?v=1714151744927"
+        },
+        { "nom": "Hang Suisse",
+          "description": "Découvrez les sonorités apaisantes du hang suisse, un instrument mélodique captivant. Parfait pour créer une atmosphère paisible et méditative.",
+           "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/hang%20suisse.jpg?v=1714151745353"
+        },
+        {
+          "nom": "Oud",
+          "description": "Explorez la richesse des mélodies orientales avec nos ouds. Ces instruments à cordes pincées offrent une sonorité distinctive et envoûtante.",
+         "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/oud.jpg?v=1714151745831"
+        },
+        {
+          "nom": "Duduk",
+          "description": "Plongez dans les tonalités mélancoliques de l'Arménie avec nos duduks. Des instruments à vent traditionnels pour des mélodies profondes et expressives.",
+          "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/duduk.jpg?v=1714151746343"
+        },
+        {
+          "nom": "Cuatro",
+          "description": "Explorez la tradition musicale latino-américaine avec nos cuatros. Des instruments à cordes populaires, parfaits pour ajouter une touche authentique à votre musique.",
+          "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/cuatro.jpg?v=1714151746803"
+        }
+      ],
+      "services": [
+        {
+          "nom": "Ateliers Musicaux",
+          "description": "Participez à nos ateliers musicaux pour explorer et apprendre à jouer des instruments du monde. Rencontrez des artistes locaux et partagez votre passion pour la musique."
+        },
+        {
+          "nom": "Réparations d'Instruments",
+          "description": "Confiez-nous la réparation et l'entretien de vos instruments de musique du monde. Notre équipe qualifiée veillera à préserver la qualité sonore et l'authenticité de votre instrument."
+        },
+        {
+          "nom": "Conseils personnalisés",
+          "description": "Nos experts sont là pour vous conseiller sur le choix d'instruments adaptés à votre style musical. Bénéficiez de conseils personnalisés pour enrichir votre expérience musicale."
+        }
+      ],
+      "temoignages": [
+        {
+          "prenom": "Amira",
+          "typeExperience": "Achat d'une Kora",
+          "commentaire": "J'ai découvert une superbe kora chez MusicHalle. Le personnel m'a guidé avec passion, et maintenant je peux explorer les magnifiques sonorités de la musique africaine chez moi. Merci !",
+          "note": 4
+        },
+        {
+          "prenom": "Rafael",
+          "typeExperience": "Atelier Didgeridoo",
+          "commentaire": "L'atelier didgeridoo chez MusicHalle était une expérience incroyable. J'ai appris les bases et je suis maintenant fasciné par cet instrument unique. Une immersion musicale captivante !",
+          "note": 5
+        },
+        {
+          "prenom": "Yasmine",
+          "typeExperience": "Réparation de Santur",
+          "commentaire": "La réparation de mon santur chez MusicHalle a été impeccable. Ils ont préservé la richesse sonore de mon instrument. Un service professionnel et fiable que je recommande vivement.",
+          "note": 4
+        }
+      ]
+    }
+  }
+  

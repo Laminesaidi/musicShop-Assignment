@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.between {
+    justify-content: space-between;
+    }
+
+.align-center{
+        align-items: center;
+        
+    }
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Philosopher", sans-serif;
+    font-size: 13px;
+    transition: 1s ease;
+}
+a:hover {
+    
+    color:#FAEF5D;
+    
+  }
+  
+header{
+   width: 100%;
+   height: 100px;
+   padding: 20px 50px;
+   background: linear-gradient(#DC6B19,#FFC94A)
+    
+  }
+  
+
+header ul{
+    list-style: none;
+    align-items: center;
+  
+    
+}
+header nav{
+  
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+.taille1{
+   width: 400px;
+    border-radius: 20px;
+}
+
+.absolut{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+    color: goldenrod ;
+}
+.banniere img {
+width: 100%;
+height: 400px;
+object-fit: cover;
+font-family: "Philosopher", sans-serif;
+
+}
+h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.musicHall{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.logot{
+    width: 80px;
+    
+}
+
+.card { 
+     
+     width: 45%;
+    text-align: center;
+     margin: 30px 0 ;
+     border: solid #DC6B19;
+     border-radius: 20px;
+     box-shadow: 4px 4px 12px hsla(0,0%,0%,0.379);
+     padding: 10px;
+}
+
+
+.avatar{
+    width: 100%;
+    height: 250px;
+}
+.size{
+    width: 100%;
+    font-family: "Philosopher", sans-serif;
+}
+
+  
+h3{
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 20px;
+    font-family: "Philosopher", sans-serif;
+}
+
+.backg{ 
+    background: linear-gradient(#FFC94A,#FFFBDA)
+
+}
+
+#content {
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+h2 {
+ font-size: 30px;
+ text-align: center;
+ font-family: "Lugrasimo", cursive;
+ color: black;
+ 
+ 
+}
+#services {
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+.carteService { 
+     
+    width: 30%;
+   text-align: center;
+    margin: 30px 0 ;
+    border: solid #DC6B19;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px hsla(0,0%,0%,0.379);
+    padding: 10px;
+}
+main{
+    padding: 30px 10% 0 10%;
+}
+.carteTem { 
+     
+    width: 30%;
+   text-align: center;
+    margin: 30px 0 ;
+    border: solid #DC6B19;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px hsla(0,0%,0%,0.379);
+    padding: 10px;
+}
+#temoignage {
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+
+.inpText{
+    width: 300px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.prenom{
+    margin-top: 15px;
+}
+
+.email{
+    margin-top: 15px;
+}
+.note{
+    margin-top: 15px;
+}
+.envoyer{
+    margin-top: 15px;
+    margin-left: 340px;
+}
+.inpName{
+    margin-left: 78px;
+    border-radius: 5px;
+}
+.inpEmail{
+    margin-left: 88px;
+    border-radius: 5px;
+}
+.inpNote{
+    margin-left: 93px;
+    border-radius: 5px;
+}
+.typeE {
+    margin-top: 15px;
+}
+.inpText{
+    margin-left: 38px;
+    border-radius: 5px;
+}
+.botton{
+    padding: 3px 15px;
+    border-radius: 10px;
+}
+.inpType{
+    margin-left: 10px;
+    border-radius: 5px;
+}
+h4{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.form{
+    width: 50%;
+    border: solid #DC6B19;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px hsla(0,0%,0%,0.379);
+    padding: 10px; 
+    margin-bottom: 30px;
+}
+.gras{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.typex{
+    margin-bottom: 10px;
+   
+}
+.comm{
+    margin-bottom: 10px; 
+}
+.nota{
+    font-weight: bold; 
+}
+.achat{
+    background-color:#481E14;
+    padding: 5px 15px;
+    width: 25%;
+    border-radius: 15px;
+    margin-left: 20px;
+    
+    text-decoration: none;
+    color:#FFC94A;
+    border: solid #FFC94A;
+    font-weight: bold;
+    transition: 1s ease;
+}
+
+
+.achat:hover {
+background-color:#FFC94A;
+color: #481E14;
+border: solid #481E14;
+border-radius: 8px;
+}
+.ach{
+    margin-top: 20px;
+}
+.atelier{
+    width: 30%;
+}

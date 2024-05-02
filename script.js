@@ -32,7 +32,10 @@ fetch("instrumentsMusiques.json")
           <img class="avatar" src="${instrument.image}" alt="">
           <h3>${instrument.nom}</h3>
           <p class="size">${instrument.description}</p>
+          <div class="flex align">
+          <p class="">${instrument.prix}</p>
           <div class="ach" ><a class="achat " href="">Acheter</a></div>
+          </div>
         </div>`
   
     });

@@ -275,3 +275,26 @@ footer{
     display: flex;
     height: 300px;
 }
+.promo{
+    width: 80%;
+    height: 150px;
+    padding: 10px; 
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+.avantage{ 
+     
+    width: 30%;
+   text-align: center;
+    margin: 30px 0 ;
+    border: solid #DC6B19;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px hsla(0,0%,0%,0.379);
+    padding: 10px;
+}
+.align{
+    width: 100%;
+    align-items: center;
+}
+
+

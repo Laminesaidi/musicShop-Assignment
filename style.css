@@ -102,6 +102,7 @@ h1{
 .size{
     width: 100%;
     font-family: "Philosopher", sans-serif;
+    margin-bottom: 20px;
 }
 
   
@@ -265,6 +266,7 @@ border-radius: 8px;
 }
 .ach{
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 .atelier{
     width: 30%;
@@ -292,9 +294,30 @@ footer{
     box-shadow: 4px 4px 12px hsla(0,0%,0%,0.379);
     padding: 10px;
 }
-.align{
-    width: 100%;
-    align-items: center;
+.price{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
 }
+.presta{
+    background-color:#481E14;
+    padding: 5px 15px;
+    width: 25%;
+    border-radius: 15px;
+    margin-left: 20px;
+    
+    text-decoration: none;
+    color:#FFC94A;
+    border: solid #FFC94A;
+    font-weight: bold;
+    transition: 1s ease;
+}
+.presta:hover {
+    background-color:#FFC94A;
+    color: #481E14;
+    border: solid #481E14;
+    border-radius: 8px;
+    }
+
 
 

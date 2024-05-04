@@ -293,6 +293,7 @@ border-radius: 8px;
     margin-left: 20px;
     font-weight: bold;
     font-size: 20px;
+    color: #481E14;
 }
 .presta{
     background-color:#481E14;
@@ -338,7 +339,7 @@ border-radius: 8px;
         margin-top: 50px;
     }
     footer{
-        background-color:#DC6B19;
+        background-color:#481E14;
         height: 300px;
         
     }
@@ -354,9 +355,12 @@ border-radius: 8px;
     }
     .foot{
         text-decoration: none;
-        color: black;
+        color: #FFC94A;
         font-weight: bold;
         margin-top: 30px;
+    }
+    .contact{
+        color: #FFC94A; 
     }
 
 

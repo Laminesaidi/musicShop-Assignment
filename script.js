@@ -1,4 +1,6 @@
+//appel  Scroll Library
 AOS.init();
+// appel le fichier json 
 fetch("instrumentsMusiques.json")
 
   
@@ -35,7 +37,7 @@ function aficheHero(nomCom,acroche,appelAction){
   
    tableauInstruments.forEach(instrument=> {
       
-  
+     
       document.querySelector("#content").innerHTML  +=
       `<div data-aos="flip-left"
       data-aos-easing="ease-out-cubic"

@@ -17,7 +17,7 @@ fetch("instrumentsMusiques.json")
     aficheHero(donnees.entreprise.nomCommercial,donnees.entreprise.phraseAccroche,donnees.entreprise.texteAppelAction)
   });
 
-
+//la function pour afficher le hero
 function aficheHero(nomCom,acroche,appelAction){
   document.querySelector("#hero").innerHTML  +=
   `
